@@ -1,0 +1,2 @@
+*.rav filter=lfs diff=lfs merge=lfs -text
+raven/** filter=lfs diff=lfs merge=lfs -text
