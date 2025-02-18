@@ -1,0 +1,26 @@
+/* src/components/styles/Bids.module.css */
+.container {
+  padding: 20px;
+}
+
+.bidsList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.bidCard {
+  background: #fff;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  background: #f3f4f6;
+  font-size: 0.875rem;
+  color: #555;
+}

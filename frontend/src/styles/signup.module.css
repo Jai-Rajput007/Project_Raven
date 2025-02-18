@@ -1,0 +1,99 @@
+/* Signup Page Styles */
+.container {
+    max-width: 400px;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Page Heading */
+  .heading {
+    font-size: 24px;
+    font-weight: bold;
+    color: #3b82f6;
+  }
+  
+  /* Form Labels */
+  .label {
+    display: block;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0 5px;
+    color: #ffffff;
+  }
+  
+  /* Input Fields */
+  .input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #3b3b3b;
+    background: #1a1a1a;
+    color: #e5e5e5;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    outline: none;
+  }
+  
+  .input::placeholder {
+    color: #a1a1a1;
+  }
+  
+  /* Signup Button */
+  .button {
+    background: #3b82f6;
+    color: white;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background: #2563eb;
+  }
+  
+  /* Links (Switch Role, Forgot Password) */
+  .links {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .link {
+    color: #3b82f6;
+    cursor: pointer;
+    font-size: 14px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+  
+  /* Error & Success Messages */
+  .error {
+    color: #ef4444;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  
+  .success {
+    color: #10b981;
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  

@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Light mode */
+:root {
+  --background-image: url('/white.png');
+  --background: #ffffff;
+  --foreground: #000000;
+  --border-color: #d1d5db;
+  --input-bg: #f9fafb;
+  --hover-bg: #f3f4f6;
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+  --background-image: none;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --border-color: #3f3f46;
+  --input-bg: #1f1f23;
+  --hover-bg: #2d2d33;
+}
+
+/* Universal Styles */
+body {
+  background-image: var(--background-image);
+  background-color: var(--background);
+  background-size: cover;
+  background-position: center;
+  color: var(--foreground);
+  transition: background 0.3s, color 0.3s;
+}
+
+/* Links */
+a {
+  color: var(--foreground);
+  transition: color 0.3s;
+}
+a:hover {
+  color: var(--hover-bg);
+}
+
+/* Buttons */
+button {
+  color: var(--foreground);
+  background-color: transparent;
+  border: 1px solid var(--border-color);
+  transition: background 0.3s, color 0.3s;
+}
+button:hover {
+  background-color: var(--foreground);
+  color: var(--background);
+}
+
+/* Inputs, Textareas, Selects */
+input, textarea, select {
+  background-color: var(--input-bg);
+  color: var(--foreground);
+  border: 1px solid var(--border-color);
+  transition: background 0.3s, color 0.3s, border 0.3s;
+}
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: var(--foreground);
+}

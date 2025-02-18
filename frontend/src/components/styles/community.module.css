@@ -1,0 +1,147 @@
+/* Main Container */
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background: linear-gradient(to bottom, #e3f2fd, #bbdefb);
+    min-height: 100vh;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  
+  /* Content Area */
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    padding-left: 250px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+  }
+  
+  /* Title */
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e3a5f;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Form Styling */
+  .form {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .textarea {
+    width: 100%;
+    min-height: 120px;
+    padding: 15px;
+    border: 2px solid #ced4da;
+    border-radius: 10px;
+    font-size: 1.1rem;
+    outline: none;
+    resize: none;
+    color: #222;
+    background: #fff;
+    box-sizing: border-box;
+  }
+  
+  .textarea::placeholder {
+    color: #777;
+  }
+  
+  .textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Submit Button */
+  .button {
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: #007bff;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .button:hover {
+    background: #0056b3;
+  }
+  
+  /* Posts Section */
+  .posts {
+    width: 100%;
+  }
+  
+  .post {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .postHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .user {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #2c3e50;
+  }
+  
+  .timestamp {
+    font-size: 1rem;
+    color: #6c757d;
+  }
+  
+  .postContent {
+    font-size: 1.1rem;
+    color: #444;
+    line-height: 1.5;
+  }
+  
+  /* No Posts Message */
+  .noPosts {
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: #555;
+    padding: 20px;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1024px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .title {
+      font-size: 2rem;
+    }
+  }
+  

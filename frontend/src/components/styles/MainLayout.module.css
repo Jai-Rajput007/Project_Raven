@@ -1,0 +1,12 @@
+/* src/components/styles/MainLayout.module.css */
+.layoutContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.mainContent {
+  margin-top: 60px; /* Adjust this based on your Navbar height */
+  padding: 20px;
+  overflow-y: auto;
+}

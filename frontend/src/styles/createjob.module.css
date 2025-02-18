@@ -1,0 +1,88 @@
+.createJobContainer {
+  width: calc(100% - 240px); /* Adjust width to account for sidebar */
+  margin-left: 240px; /* Shift content right if sidebar is fixed */
+  min-height: 100vh;
+  background: #f8f9fc;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+.formWrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  font-size: 28px;
+  font-weight: bold;
+  color: #1d3557;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.formGroup {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  display: block;
+  padding-left: 10px;
+}
+
+.input,
+.textarea {
+  width: calc(100% - 20px);
+  margin: 5px 10px;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  background-color: #fff;
+  color: #333;
+}
+
+.input:focus,
+.textarea:focus {
+  border-color: #007bff;
+  outline: none;
+  background: #eef5ff;
+}
+
+.textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 14px;
+  font-size: 16px;
+  font-weight: bold;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background 0.3s ease;
+}
+
+.submitButton:hover {
+  background: #0056b3;
+}

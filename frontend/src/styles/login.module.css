@@ -1,0 +1,78 @@
+/* login.module.css */
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #121212;
+    position: relative; /* Ensure the container is positioned relative to the page */
+}
+
+.container {
+    width: 400px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1; /* Ensure the container is above the Starfield */
+}
+
+.heading {
+    color: #f1f1f1;
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.label {
+    display: block;
+    color: #bbb;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    background: black;
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.button {
+    width: 100%;
+    background: #555;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.button:hover {
+    background: #777;
+}
+
+.links {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.link {
+    cursor: pointer;
+    color: #ddd;
+    margin: 5px 0;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: white;
+}
